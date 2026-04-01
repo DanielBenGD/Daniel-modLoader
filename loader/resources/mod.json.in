@@ -6,11 +6,11 @@
         "android": "*",
         "ios": "*"
     },
-    "id": "geode.loader",
+    "id": "daniel.loader",
     "version": "@PROJECT_VERSION@@PROJECT_VERSION_SUFFIX@",
-    "name": "Geode",
-    "developer": "Geode Team",
-    "description": "The Geode mod loader",
+    "name": "Daniel Modloader",
+    "developer": "Daniel",
+    "description": "The Daniel mod loader",
     "links": {
         "community": "https://discord.com/invite/9e43WMKzhp",
         "homepage": "https://geode-sdk.org",
@@ -71,7 +71,7 @@
         "april-button-2026": {
             "type": "button",
             "buttons": {
-                "activate": "Activate Sapphire Pro"
+                "activate": "Activate Daniel Modloader Pro"
             }
         },
         "geode-settings-info": {
@@ -90,7 +90,7 @@
             "type": "bool",
             "default": true,
             "name": "Check For Updates",
-            "description": "Automatically check for <cy>Geode</c> updates on startup"
+            "description": "Automatically check for <cy>Daniel Modloader</c> updates on startup"
         },
         "disable-last-crashed-popup": {
             "type": "bool",
@@ -101,8 +101,8 @@
         "enable-geode-theme": {
             "type": "bool",
             "default": true,
-            "name": "Enable Geode-Themed Colors",
-            "description": "When enabled, the Geode menu has a <ca>Geode-themed color scheme</c>. <cy>This does not affect any other menus!</c>"
+            "name": "Enable Daniel-Themed Colors",
+            "description": "When enabled, the Daniel Modloader menu has a <ca>Daniel-themed color scheme</c>. <cy>This does not affect any other menus!</c>"
         },
         "infinite-local-mods-list": {
             "type": "bool",
@@ -129,7 +129,7 @@
             "type": "bool",
             "default": false,
             "name": "Show Restart Button",
-            "description": "Show a button in the Geode Menu to restart the game"
+            "description": "Show a button in the Daniel Modloader Menu to restart the game"
         },
         "console-log-level": {
             "type": "string",
@@ -175,7 +175,7 @@
         "curl-dns3": {
             "type": "string",
             "name": "Web DNS Server",
-            "description": "Change the DNS server that Geode and mods will use to make web requests.",
+            "description": "Change the DNS server that Daniel Modloader and mods will use to make web requests.",
             "default": "Auto",
             "one-of": [
                 "Auto",
@@ -189,7 +189,7 @@
         "curl-custom-dns3": {
             "type": "string",
             "name": "Custom Web DNS Server(s)",
-            "description": "Manually specify DNS server IPs that Geode and mods will use to make web requests (separate each IP by a comma). This will override what you have set for Web DNS Server.",
+            "description": "Manually specify DNS server IPs that Daniel Modloader and mods will use to make web requests (separate each IP by a comma). This will override what you have set for Web DNS Server.",
             "filter": "abcdefghijklmnopqrstuvwxyz0123456789.,[]:",
             "default": "",
             "requires-restart": true
@@ -204,7 +204,7 @@
         }
     },
     "issues": {
-        "info": "Post your issues on the <cp>Geode Github Repository</c>. <cy>Please follow the standard issue format</c>.",
+        "info": "Post your issues on the <cp>Daniel Modloader Github Repository</c>. <cy>Please follow the standard issue format</c>.",
         "url": "https://github.com/geode-sdk/geode/issues/new"
     }
 }
